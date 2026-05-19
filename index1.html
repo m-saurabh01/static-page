@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Air Force Portal Login</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />  -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="index1.css" />
+</head>
+
+<body>
+
+  <svg style="display: none;">
+    <symbol id="shield-check-icon-1" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 3L5 6v5c0 4.5 2.9 8.7 7 10c4.1-1.3 7-5.5 7-10V6l-7-3z" fill="none" stroke="currentColor"
+        stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M8.8 12.1l2.1 2.1l4.5-4.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+  </svg>
+
+  <svg style="display: none;">
+    <symbol id="shield-check-icon" viewBox="0 0 24 24">
+      <path d="M12 2.8L5 5.9v5.4c0 4.4 2.8 8.3 7 9.9c4.2-1.6 7-5.5 7-9.9V5.9L12 2.8Z" fill="currentColor" />
+      <path d="M8.7 12.1l2.1 2.1l4.6-4.8" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+  </svg>
+
+  <main class="portal-page">
+
+    <!-- Background aircraft image -->
+    <div class="bg-overlay"></div>
+
+    <!-- Header -->
+    <header class="portal-header">
+      <div class="brand-area">
+        <img src="assets/iaf-logo.png" alt="Indian Air Force Logo" class="main-logo" />
+
+       <!--  <div class="brand-divider"></div> --> 
+
+        <div class="brand-text">
+     <!--       <h1>AIR FORCE PORTAL</h1>
+          <p>INTEGRITY <span>•</span> SERVICE <span>•</span> EXCELLENCE</p> -->
+          <h1>INDIAN AIR FORCE</h1>
+          <div class="brand-tagline">
+    <span class="brand-line"></span>
+    <span class="brand-tagline-text">Touch the sky with Glory</span>
+    <span class="brand-line"></span>
+  </div>
+        </div>
+
+      <!--  <div class="brand-divider second"></div> --> 
+
+        <img src="assets/emms-logo1.png" alt="Indian Air Force Crest" class="crest-logo" />
+      </div>
+    </header>
+
+    <!-- Hero Text -->
+    <section class="hero-content">
+      <h2 class="hero-main-title">e-MMS Login Portal</h2>
+
+      <div class="hero-separator">
+        <span class="separator-line"></span>
+         <!-- <b>★</b>  --> 
+         <i class="fa-solid fa-plane separator-plane"></i>
+        <span class="separator-line"></span>
+      </div>
+    </section>
+
+    <!-- Login + Instructions Card -->
+    <section class="portal-card">
+
+      <!-- Login Box -->
+      <div class="login-section">
+        <div class="section-title">
+          <div class="icon-box">🔒</div>
+          <div>
+            <h4>Login to Your Account</h4>
+            <p>Enter your credentials to access the portal</p>
+          </div>
+        </div>
+
+        <form class="login-form">
+
+          <div class="input-box">
+            <div class="input-icon">👤</div>
+            <input type="text" placeholder="Service No." />
+          </div>
+
+          <div class="input-box">
+            <div class="input-icon">🔐</div>
+            <input type="password" placeholder="Password" />
+            <button type="button" class="eye-btn">👁</button>
+          </div>
+
+          <div class="form-row">
+            <label class="remember">
+              <input type="checkbox" />
+              <span></span>
+              Remember Me
+            </label>
+
+            <a href="#">Forgot Password?</a>
+          </div>
+
+<!--  <span>🔒</span> -->
+          <!--    <button type="submit" class="login-btn">
+           
+            <i class="fa-solid fa-right-to-bracket"></i>
+            LOGIN
+          </button> -->
+          
+          <button type="submit" class="login-btn">
+  <i class="fa-solid fa-fingerprint"></i>
+  AUTHENTICATE
+</button>
+
+        </form>
+      </div>
+
+      <!-- Center Divider -->
+      <!-- Center Divider -->
+      <div class="center-divider">
+        <div class="shield-center">
+          <svg class="shield-icon">
+            <use href="#shield-check-icon-1"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Instruction Box -->
+      <div class="instruction-section">
+        <div class="section-title instruction-title">
+         <div class="icon-box">
+    <i class="fa-solid fa-file-lines title-fa-icon"></i>
+  </div>
+
+          <div>
+            <h4>Mandatory Instructions</h4>
+            <div class="small-heading-line"></div>
+          </div>
+        </div>
+
+        <ul class="instruction-list">
+          <li>
+            <span class="instruction-icon">
+  <svg>
+                <use href="#shield-check-icon"></use>
+              </svg>
+</span>
+            <p>
+              This portal is for authorized Air Force personnel only.
+              Unauthorized access is strictly prohibited.
+            </p>
+          </li>
+
+          <li>
+            <span class="instruction-icon">
+              <svg>
+                <use href="#shield-check-icon"></use>
+              </svg>
+            </span>
+            <p>
+              Ensure the confidentiality of your Service No. and password.
+              Do not share your credentials with anyone.
+            </p>
+          </li>
+
+          <li>
+            <span class="instruction-icon">
+              <svg>
+                <use href="#shield-check-icon"></use>
+              </svg>
+            </span>
+            <p>
+              Always log out after completing your session to protect your account.
+            </p>
+          </li>
+
+          <li>
+            <span class="instruction-icon">
+              <svg>
+                <use href="#shield-check-icon"></use>
+              </svg>
+            </span>
+            <p>
+              Use only official systems and secure networks to access this portal.
+            </p>
+          </li>
+
+        <!--   <li>
+            <span class="instruction-icon">
+              <svg>
+                <use href="#shield-check-icon"></use>
+              </svg>
+            </span>
+            <p>
+              Report any suspicious activity to the system administrator immediately.
+            </p>
+          </li> --> 
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="portal-footer">
+      <div class="footer-center">
+        © 2024 Government Air Force Portal. All rights reserved.
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
